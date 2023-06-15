@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 public class Conecta {
 	
 	private static Connection conexao_unica = null;
-	static protected String dsn="bd?useSSL=false", user="root", pwd="";
+	static protected String dsn="db?useSSL=false", user="root", pwd="";
 	private Conecta() {}
 	
 	public static Connection getConnection() {
