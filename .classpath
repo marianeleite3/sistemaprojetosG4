@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="sistemaProjetosG4/src"/>
+	<classpathentry kind="lib" path="C:/Users/lucas/Downloads/sistemaprojetosG4-main/sistemaprojetosG4-main/lib/mysql-connector-java-8.0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lucas/Downloads/sistemaprojetosG4-main/sistemaprojetosG4-main/lib/mysql-connector-java-5.1.47-bin.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-8.0.23.jar"/>
+	<classpathentry kind="output" path="sistemaProjetosG4/bin"/>
+</classpath>
