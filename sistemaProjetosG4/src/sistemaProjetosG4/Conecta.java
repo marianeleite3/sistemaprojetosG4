@@ -12,7 +12,7 @@ public class Conecta {
 		try {
 			String servidor1 = "localhost:3306";
 			if ((conexao_unica == null) ) {
-				Class.forName("com.mysql.jdbc.Driver");
+				
 				conexao_unica = DriverManager.getConnection("jdbc:mysql://"+servidor1+"/"+dsn,user,pwd);
 			}
 			return conexao_unica;

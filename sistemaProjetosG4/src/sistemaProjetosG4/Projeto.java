@@ -12,13 +12,12 @@ public class Projeto {
     private double valor;
 	
 	public Projeto(String cliente, String descricao, LocalDate dt_inicio,
-			LocalDate dt_termino, String numero_projeto, double valor ){
+			LocalDate dt_termino, String projetista, double valor ){
 		
 		this.setCliente(cliente);
 		this.setDescricao(descricao);
 		this.setDtinicio(dt_inicio);
 		this.setDttermino(dt_termino);
-		this.setNumeroProjeto(numero_projeto);
 		this.setProjetista(projetista);
 		this.setValor(valor);
 	}
